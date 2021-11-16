@@ -2,10 +2,16 @@ import React from 'react';
 
 const styles = {
   footerStyle: {
-      background: 'blue',
+    display: 'flex',
+    flexDirection: 'row',
+    width: '100%',
+    height: '5vh',
+    position: 'absolute',
+    bottom: '0',
+    background: 'blue',
   },
   textStyle: {
-    fontSize: '50px',
+    fontSize: '10px',
     color: 'red'
   },
 };
@@ -13,7 +19,7 @@ const styles = {
 function Footer() {
   return (
     <div style={styles.footerStyle} class="footer">
-        <h1 style={styles.textStyle}>FOOTER</h1>
+        <h4 style={styles.textStyle}>FOOTER</h4>
     </div>
   );
 }
