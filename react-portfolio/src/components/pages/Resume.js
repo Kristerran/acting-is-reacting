@@ -1,7 +1,7 @@
 import React from 'react';
 
 const styles = {
-  footerStyle: {
+  resumeStyle: {
       background: 'blue',
   },
   textStyle: {
@@ -10,12 +10,12 @@ const styles = {
   },
 };
 
-function Footer() {
+function Resume() {
   return (
-    <div style={styles.footerStyle} class="footer">
-        <h1 style={styles.textStyle}>FOOTER</h1>
+    <div style={styles.resumeStyle} class="contact">
+        <h1 style={styles.textStyle}>RESUME</h1>
     </div>
   );
 }
 
-export default Footer;
+export default Resume;
