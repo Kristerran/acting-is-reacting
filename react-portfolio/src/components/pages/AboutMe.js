@@ -8,7 +8,9 @@ const styles = {
     filter: 'drop-shadow(3px 1px 2px)',
   },
   aboutStyle: {
-    minHeight: '85vh',
+    // minHeight: '80vh',
+    width: '80%',
+    margin: 'auto',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -19,7 +21,9 @@ const styles = {
   textStyle: {
   },
   imgStyle: {
+    filter: 'drop-shadow(3px 4px 10px #96C1AE)',
     width: '20%',
+
   }
 };
 

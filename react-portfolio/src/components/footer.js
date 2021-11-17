@@ -28,8 +28,9 @@ const styles = {
     filter: 'drop-shadow(2px 2px 2px)',
   },
   textStyle: {
+    marginLeft: '2%',
     fontFamily: 'Lovelo-black',
-    fontSize: '10px',
+    fontSize: '8px',
     color: '#FFFFFF',
     filter: 'drop-shadow(2px 2px 2px #96C1AE)',
   },
