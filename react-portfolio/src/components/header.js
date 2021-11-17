@@ -2,14 +2,16 @@ import React from 'react';
 import Nav from './Nav'
 const styles = {
   headerStyle: {
-    background: '#848484',
+    zIndex: '2',
+    position: 'fixed',
+    top: '0',
+    background: 'linear-gradient(0deg, rgba(103,103,103,1) 0%, rgba(132,132,132,1) 62%, rgba(88,88,88,1) 100%)',
       width: '100%',
       height: '10vh',
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
-      boxShadow: '2px 2px 10px',
-
+      boxShadow: '0px 2px 10px',
   },
   textStyle: {
     textAlign: 'center',
@@ -31,7 +33,7 @@ const styles = {
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div style={styles.headerStyle} class="header">
+    <div style={styles.headerStyle} className="header">
         <a href="/" style={styles.imgStyle}>
           <img style={styles.imgStyle} src="./Name4.svg" alt="logo"/>
         </a>
