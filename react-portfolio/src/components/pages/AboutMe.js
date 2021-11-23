@@ -2,13 +2,14 @@ import React from 'react';
 
 const styles = {
   headingStyle:{
+    marginBottom: '2%',
     color: '#3D3D3D',
     textAlign: 'center',
     fontFamily: 'Lovelo-Black',
     filter: 'drop-shadow(3px 1px 2px)',
   },
   aboutStyle: {
-    // minHeight: '80vh',
+    minHeight: '85vh',
     width: '80%',
     margin: 'auto',
     display: 'flex',
@@ -19,11 +20,14 @@ const styles = {
     paddingTop: '10vh'
   },
   textStyle: {
+    width: '90%',
+    margin: '1%',
+    fontFamily: 'Montserrat',
   },
   imgStyle: {
     filter: 'drop-shadow(3px 4px 10px #96C1AE)',
     width: '20%',
-
+    marginBottom: '2%',
   }
 };
 
@@ -37,7 +41,6 @@ function AboutMe() {
                 Kris has a background in art and creative problem solving. They specialize in creating beautiful
                 websitess
                 with creative themes and content.</p>
-            <p style={styles.textStyle}>Follow the button above to see examples of Kris' work in school and personal projects.</p>
             <p style={styles.textStyle}>Kris is currently available for hire! If you are interested in working with them, please take a look at
                 their resume and contact me pages.
                 Feel free to reach out with questions or comments.

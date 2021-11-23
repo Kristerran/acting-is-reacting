@@ -1,5 +1,7 @@
 import React from 'react';
 import Nav from './Nav'
+import { Link } from 'react-router-dom';
+
 const styles = {
   headerStyle: {
     zIndex: '2',
@@ -31,13 +33,14 @@ const styles = {
   }
 };
 
-function Header({ currentPage, handlePageChange }) {
+
+function Header() {
   return (
     <div style={styles.headerStyle} className="header">
-        <a href="/" style={styles.imgStyle}>
-          <img style={styles.imgStyle} src="./Name4.svg" alt="logo"/>
-        </a>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Link style={styles.imgStyle} to="/">
+            <img style={styles.imgStyle} src="./Name4.svg" alt="logo"/>
+        </Link>
+        <Nav />
     </div>
   );
 }
