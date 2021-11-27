@@ -58,7 +58,7 @@ function Resume() {
       </a>
       <span className='break' />
       <div className="contact" style={styles.headingStyle}>
-        <img src='./portrait.jpg' style={styles.imageStyle} />
+        <img src='./portrait.jpg' style={styles.imageStyle} alt='Portrait' />
         <h1>
           Kris Terran Baily
         </h1>
