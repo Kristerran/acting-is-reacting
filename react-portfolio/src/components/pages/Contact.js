@@ -1,5 +1,4 @@
 import React from 'react';
-
 const styles = {
   contactStyle: {
     display: 'flex',
@@ -34,13 +33,18 @@ class Contact extends React.Component {
     });
   }
   handleSubmit(event) {
-    console.log(this.state)
+    alert('This functionality is still in development, please send your inquiries to kristopherbaily@gmail.com')
     event.preventDefault();
   }
   render(){
     return (
       <div style={styles.contactStyle} onSubmit={this.handleSubmit} className="contact">
-          <h1 style={styles.textStyle}>CONTACT</h1>
+          <h1 style={styles.textStyle}>
+            CONTACT
+            </h1>
+          <h2 style={styles.textStyle}>
+            This functionality is still under development, please send your inquiries to <a href='mailto:kristopherbaily@gmail.com'>kristopherbaily@gmail.com </a>
+          </h2>
           <form>
             <label htmlFor='name'>
               Name
@@ -63,12 +67,3 @@ class Contact extends React.Component {
   }
 
 export default Contact;
-
-// Acceptance Criteria
-
-// WHEN I am presented with the Contact section
-// THEN I see a contact form with fields for a name, an email address, and a message
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
-// WHEN I enter text into the email address field
-// THEN I receive a notification if I have entered an invalid email address

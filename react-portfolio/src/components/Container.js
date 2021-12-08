@@ -5,7 +5,6 @@ import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-
 function Container() {
   return (
     <>
@@ -17,7 +16,6 @@ function Container() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         {<Footer />}
       </Router>
