@@ -53,7 +53,7 @@ const styles = {
 function Resume() {
   return (
     <div style={styles.resumeStyle} class="resume">
-      <a style={styles.downloadStyle} href="./Resume 2021.pdf" download>
+      <a style={styles.downloadStyle} href="./Kris Terran Baily resume 2022.pdf" download>
         Download
       </a>
       <span className='break' />
