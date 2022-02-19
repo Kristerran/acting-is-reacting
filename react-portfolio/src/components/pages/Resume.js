@@ -3,7 +3,7 @@ import React from 'react';
 const styles = {
   resumeStyle: {
     minHeight: '85vh',
-    width: '100%',
+    width: '90%',
     margin: 'auto',
     display: 'flex',
     flexDirection: 'row',
@@ -11,8 +11,8 @@ const styles = {
     justifyContent: 'space-around',
     alignItems: 'center',
     height: '100%',
+    padding: '5%',
     paddingTop: '15vh',
-    paddingBottom: '5%',
   },
   downloadStyle: {
     borderRadius: '5px',
@@ -29,7 +29,7 @@ const styles = {
     marginLeft: 'auto',
 
   },
-  imageStyle:{
+  imageStyle: {
     borderRadius: '100%',
     width: '20vh',
     height: '20vh',
@@ -44,7 +44,7 @@ const styles = {
     padding: '2%',
     background: '#fb5959',
     borderRadius: '5px'
-    
+
   },
   textStyle: {
   },
@@ -52,108 +52,66 @@ const styles = {
 
 function Resume() {
   return (
-    <div style={styles.resumeStyle} class="resume">
-      <a style={styles.downloadStyle} href="./Kris Terran Baily resume 2022.pdf" download>
+    <div style={styles.resumeStyle} className="resume">
+      <a style={styles.downloadStyle} href="./Resume 2022 Kris Terran Baily.pdf" download>
         Download
       </a>
-      <span className='break' />
-      <div className="contact" style={styles.headingStyle}>
-        <img src='./portrait.jpg' style={styles.imageStyle} alt='Portrait' />
+      <div className='resumeContent'>
         <h1>
           Kris Terran Baily
         </h1>
         <ul>
           <li>
-            7711 Greenback Ln
+            Citrus Heights, CA 95610
           </li>
           <li>
-            Citrus Heights CA, 95610
+            Phone: (530) 417-0111
           </li>
           <li>
-            (530) 417-0111
+            Email: Kristopherbaily@gmail.com
           </li>
           <li>
-            Kristopherbaily@gmail.com
+            LinkedIn: https://www.linkedin.com/in/kris-terran-baily/
           </li>
           <li>
-            kristerranbaily.com
+            GitHub: https://github.com/Kristerran/
+          </li>
+          <li>
+            Portfolio: https://www.kristerranbaily.com
           </li>
         </ul>
-      </div>
-
-      <div className="workExperience" style={styles.textStyle}>
         <h2>
-          Work Experience
+          Summary
+        </h2>
+        <p>
+          Full stack web developer, leverages Art and design background to create aesthetically pleasing, responsive, mobile first, web applications. Earned a certificate in full stack web development from UC Davis Web Development Bootcamp. Experience with Javascript, React, HTML5, CSS3, and more. Skilled in teamwork, creativity, and problem solving.
+        </p>
+        <h2>
+          Technical Skills
         </h2>
         <h4>
-          Insight Veterinary Wellness Center - Team lead/ Pet Concierge
+          Languages:
         </h4>
-        <h5>
-          July 2020-Present
-        </h5>
-        <p>
-          Manages daily schedules and guest relations. Works with scheduling and veterinary software. Coordinates Email
-          correspondence and payment protocols. Lead meetings and trainings on dog behaviors and cleaning procedures.
-        </p>
-        <h4>
-          Placerville Natural Foods Co-op- Produce buyer, Cashier, Grocery clerk
-        </h4>
-        <h5>
-          June 2019 – July 2020
-        </h5>
-        <p>
-          In charge of ordering, prepping, and displaying fresh produce. Provided customer service. Created Store signage
-          and promotional materials. Worked with ordering and inventory/SKU software.
-        </p>
-        <h4>
-          Dogtopia of Sacramento - Canine coach
-        </h4>
-        <h5>
-          October 2018 - April 2019
-        </h5>
-        <p>
-          Independently operated playrooms of up to twenty dogs. In charge of cleaning procedures and supervision of play.
-        </p>
-        <h4>
-          Target, Town center, El Dorado hills - General Merchandise Expert
-        </h4>
-        <h5>
-          June 2017 - October 2018
-        </h5>
-        <p>
-          Specialized in guest service, and store recovery. Cross-trained on checkout, backroom procedures, Electronics,
-          Sales-planning, and grocery department.
-        </p>
-      </div>
-      <div className="skills">
-
-        <h2>
-          Skills
-        </h2>
         <ul>
           <li>
-            HTML5
+            JavaScript
           </li>
           <li>
             CSS3
           </li>
           <li>
-            JavaScript
+            HTML5
           </li>
           <li>
-            jQuery
+            SQL
           </li>
+        </ul>
+        <h4>
+          Applications:
+        </h4>
+        <ul>
           <li>
-            Bootstrap
-          </li>
-          <li>
-            Express.js
-          </li>
-          <li>
-            React.js
-          </li>
-          <li>
-            Node.js
+            GitHub
           </li>
           <li>
             MongoDB
@@ -161,54 +119,206 @@ function Resume() {
           <li>
             MySQL
           </li>
+        </ul>
+        <h4>
+          Tools:
+        </h4>
+        <ul>
           <li>
-            Command Line
+            Express
           </li>
           <li>
-            Git
+            React
+          </li>
+          <li>
+            Node.js
+          </li>
+          <li>
+            Handlebars
+          </li>
+          <li>
+            JQuery
+          </li>
+          <li>
+            Bootstrap
           </li>
         </ul>
-      </div>
-
-      <div className="Education">
-
         <h2>
           Education
         </h2>
         <ul>
           <li>
-            <h4>
-              UC Davis Web Development Bootcamp
-            </h4>
-            <h5>
-              June 2021 - December 2021
-            </h5>
+            Bootcamp Certificate: University of California, Davis, CA
+          </li>
+          <li>
+            6 month intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js and ReactJS.
+          </li>
+        </ul>
+        <h2>
+          Projects
+        </h2>
+        <h4>
+          Pillar Art Gallery |
+        </h4>
+        <ul>
+          <li>
+            <a href='https://github.com/Kristerran/pillarArtApplication'>
+              https://github.com/Kristerran/pillarArtApplication
+            </a>
+          </li>
+          <li>
+            <a href='https://www.pillargallery.com/'>
+              https://www.pillargallery.com/
+            </a>
+          </li>
+          <li>
             <p>
-              Full stack Web development bootcamp. Certified in Javascript, HTML5, CSS3, Jquery, Node.js, and React,
-              among other technologies.
+              Virtual art gallery utilizing pure css to create an illusion of 3d space.
             </p>
           </li>
           <li>
-            <h4>
-              Udemy- The web developer bootcamp
-            </h4>
-            <h5>
-              2020-2021
-            </h5>
             <p>
-              Studied front end web development and design
+              Created application scaffold, developed image upload features, managed Sql database.
             </p>
           </li>
           <li>
-            <h4>
-              Folsom Lake College
-            </h4>
-            <h5>
-              2017-2019
-            </h5>
             <p>
-              Coursework in Art, Design, and computer science.
+              MVC Stack, SQL Database, Handlebars renderer, Node.js
             </p>
+          </li>
+        </ul>
+        <h4>
+          Lai Salon
+        </h4>
+        <ul>
+          <li>
+            <a href='https://github.com/Kristerran/salon-project'>
+              https://github.com/Kristerran/salon-project
+            </a>
+          </li>
+          <li>
+            <a href='https://shrouded-springs-95173.herokuapp.com/'>
+              https://shrouded-springs-95173.herokuapp.com/
+            </a>
+          </li>
+          <li>
+            <p>
+              Virtual art gallery utilizing pure css to create an illusion of 3d space.
+            </p>
+          </li>
+          <li>
+            <p>
+              Created application scaffold, developed image upload features, managed Sql database.
+            </p>
+          </li>
+          <li>
+            <p>
+              MVC Stack, SQL Database, Handlebars renderer, Node.js
+            </p>
+          </li>
+        </ul>
+        <h4>
+          There and Back
+        </h4>
+        <ul>
+          <li>
+            <a href='https://github.com/Kristerran/thereAndBack'>
+              https://github.com/Kristerran/thereAndBack
+            </a>
+          </li>
+          <li>
+            <a href='https://shrouded-springs-95173.herokuapp.com/'>
+              https://shrouded-springs-95173.herokuapp.com/
+            </a>
+          </li>
+          <li>
+            <p>
+              Travel app with built in directions, pre-trip planner, and location info api integration.
+            </p>
+          </li>
+          <li>
+            <p>
+              Created trip planning component, integrated mapbox api.
+            </p>
+          </li>
+          <li>
+            <p>
+              Pure HTML, Javascript, Jquery, Bootstrap.
+            </p>
+          </li>
+        </ul>
+        <h2>
+          Experience
+        </h2>
+        <h4>
+          Team Lead/ Pet Concierge
+        </h4>
+        <p>
+          2020 – 2022 (Current)
+        </p>
+        <h5>
+          Insight Veterinary Wellness Center
+        </h5>
+        <p>
+          Eldorado Hills, CA
+        </p>
+        <p>
+          Managed Guest relations and communications including email, phone, and in person correspondence. Exhibited Leadership skills during team meetings, training, and shift coordination. Showed multitasking capabilities while surveying animal safety, Animal data management, and sanitization procedures.
+
+        </p>
+        <h4>
+          Produce Buyer/ Grocery Clerk
+        </h4>
+        <p>
+          2019 – 2020
+        </p>
+        <h5>
+          Placerville Natural Foods Co-op
+        </h5>
+        <p>
+          Placerville, CA
+        </p>
+        <p>
+          Utilized management skills to order, organize, prep, and display Merchandise for the produce department. Showcased creativity while designing store signage, displays, and seasonal displays.
+        </p>
+        <h4>
+          Pet care assistant
+        </h4>
+        <p>
+          2018 – 2019
+        </p>
+        <h5>
+          Dogtopia
+
+        </h5>
+        <p>
+          Sacramento, CA
+        </p>
+        <ul>
+          <li>
+            Developed multitasking capabilities, balancing the needs of pets, team, and personal
+            tasks.
+          </li>
+          <li>
+            Showed dedication, studying animal behavior to better serve the role.
+          </li>
+        </ul>
+        <h4>
+          Hardlines Team Member/Cashier
+        </h4>
+        <p>
+          2017 – 2018
+        </p>
+        <h5>
+          Target Eldorado Hills, CA
+        </h5>
+        <ul>
+          <li>
+            Exhibited self-sufficiency, followed technical directions to set up displays and aisle
+            setups.
+          </li>
+          <li>
+            Showcased teamwork, balancing personal tasks and needs of the team.
           </li>
         </ul>
       </div>
