@@ -1,7 +1,7 @@
 import React from 'react';
 
 const styles = {
-  headingStyle:{
+  headingStyle: {
     marginBottom: '2%',
     color: '#3D3D3D',
     textAlign: 'center',
@@ -34,18 +34,19 @@ const styles = {
 function AboutMe() {
   return (
     <div className="aboutMe">
-        <div className='card' id='aboutMeCard' style={styles.aboutStyle}>
-            <h2 id='aboutMe' style={styles.headingStyle}>Kris Terran Baily</h2>
-            <img style={styles.imgStyle} src="./IMG_20200807_175956.jpg" alt="Kristopher Terran Baily Portrait" id='portrait' />
-            <p style={styles.textStyle}>Kris Terran Baily is a web designer currently enrolled in Uc davis web development bootcamp.
-                Kris has a background in art and creative problem solving. They specialize in creating beautiful
-                websitess
-                with creative themes and content.</p>
-            <p style={styles.textStyle}>Kris is currently available for hire! If you are interested in working with them, please take a look at
-                their resume and contact me pages.
-                Feel free to reach out with questions or comments.
-            </p>
-        </div>
+      <div className='card' id='aboutMeCard' style={styles.aboutStyle}>
+        <h2 id='aboutMe' style={styles.headingStyle}>Kris Terran Baily</h2>
+        <img style={styles.imgStyle} src="./IMG_20200807_175956.jpg" alt="Kristopher Terran Baily Portrait" id='portrait' />
+        <p style={styles.textStyle}>
+          I am a full stack web developer who leverages their art and design background to create aesthetically pleasing, responsive, mobile first, web applications.
+        </p>
+        <p style={styles.textStyle}>
+          I have earned a certificate in full stack web development from UC Davis Web Development Bootcamp. I have experience with Javascript, React, HTML5, CSS3, and more. I am skilled in teamwork, creativity, and problem solving. I recently showcased my skills in a salon booking application in which I utilized my experience with React and API Integration to create a booking calendar from scratch for use with Full Calendar.
+        </p>
+        <p style={styles.textStyle}>
+          My creativity, paired with my technical knowledge, and quick learning ability make me a valuable asset to a development team.
+        </p>
+      </div>
     </div>
   );
 }

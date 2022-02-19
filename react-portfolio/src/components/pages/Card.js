@@ -27,6 +27,15 @@ function Card(props) {
         <a href={props.link}>
         <img style={styles.imageStyle} src={props.src} />
         </a>
+        <h4>
+          {props.title}
+        </h4>
+        <a href={props.link}>
+          {props.link}
+        </a>
+        <a href={props.githubLink}>
+          {props.githubLink}
+        </a>
         <p>
             {props.description}
         </p>

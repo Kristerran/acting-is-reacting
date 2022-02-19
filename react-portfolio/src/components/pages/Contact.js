@@ -42,10 +42,7 @@ class Contact extends React.Component {
           <h1 style={styles.textStyle}>
             CONTACT
             </h1>
-          <h2 style={styles.textStyle}>
-            This functionality is still under development, please send your inquiries to <a href='mailto:kristopherbaily@gmail.com'>kristopherbaily@gmail.com </a>
-          </h2>
-          <form>
+          <form name="contact" method="POST" data-netlify="true" action="/contact">
             <label htmlFor='name'>
               Name
               </label>
