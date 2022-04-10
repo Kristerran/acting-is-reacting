@@ -3,12 +3,20 @@ const styles = {
   contactStyle: {
     display: 'flex',
     flexDirection: 'column',
-    paddingTop: '15%',
+    paddingTop: '5%',
     textAlign: 'center',
     minHeight: '85vh'
   },
-  textStyle: {
-    fontSize: '10px'
+  formStyle: {
+    padding: '2%'
+  },
+  headingStyle: {
+    marginTop: '5%',
+    marginBottom: '2%',
+    color: '#3D3D3D',
+    textAlign: 'center',
+    fontFamily: 'Lovelo-Black',
+    filter: 'drop-shadow(3px 1px 2px)',
   },
 };
 
@@ -21,7 +29,6 @@ class Contact extends React.Component {
       message: 'Please enter your message'
   }
     this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleChange(event) {
     const target = event.target;
@@ -32,17 +39,13 @@ class Contact extends React.Component {
       [name]: value
     });
   }
-  handleSubmit(event) {
-    alert('This functionality is still in development, please send your inquiries to kristopherbaily@gmail.com')
-    event.preventDefault();
-  }
   render(){
     return (
-      <div style={styles.contactStyle} onSubmit={this.handleSubmit} className="contact">
-          <h1 style={styles.textStyle}>
+      <div style={styles.contactStyle} className="contact">
+          <h1 style={styles.headingStyle}>
             CONTACT
             </h1>
-          <form name="contact" method="POST" data-netlify="true" action="/contact">
+          <form style={styles.formStyle} name="contact" method="POST" data-netlify="true">
             <label htmlFor='name'>
               Name
               </label>

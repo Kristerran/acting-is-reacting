@@ -2,14 +2,14 @@ import React from 'react';
 
 const styles = {
   footerStyle: {
+    position: 'relative',
     display: 'flex',
     flexDirection: 'row',
     width: '100%',
-    height: '5vh',
+    height: '10vh',
     bottom: '0',
-    background: 'linear-gradient(0deg, rgba(103,103,103,1) 0%, rgba(132,132,132,1) 62%, rgba(88,88,88,1) 100%)',
+    background: '#d6e6df',
     alignItems: 'center',
-    boxShadow: '0px -2px 5px rgba(103,103,103,1)',
   },
   navStyle: {
     width: '20%',
@@ -39,6 +39,13 @@ const styles = {
 function Footer() {
   return (
     <div style={styles.footerStyle} className="footer">
+      <div class="custom-shape-divider-bottom-1649556066">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <rect x="1200" height="3.6"></rect>
+        <rect height="3.6"></rect>
+        <path d="M0,0V3.6H580.08c11,0,19.92,5.09,19.92,13.2,0-8.14,8.88-13.2,19.92-13.2H1200V0Z" class="shape-fill"></path>
+    </svg>
+</div>
       <h5 style={styles.textStyle}>
             Created by Kris Terran Baily 2021
         </h5>

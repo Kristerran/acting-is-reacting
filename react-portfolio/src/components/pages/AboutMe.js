@@ -2,27 +2,32 @@ import React from 'react';
 
 const styles = {
   headingStyle: {
-    marginBottom: '2%',
+    marginTop: '5%',
+    marginBottom: '5%',
     color: '#3D3D3D',
     textAlign: 'center',
     fontFamily: 'Lovelo-Black',
     filter: 'drop-shadow(3px 1px 2px)',
   },
   aboutStyle: {
+    background: 'white',
     minHeight: '85vh',
     width: '80%',
     margin: 'auto',
+    padding: '5%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     height: '100%',
-    paddingTop: '10vh'
+    marginTop: '9vh',
+    marginBottom:'10vh',
+    borderRadius: '20%'
   },
   textStyle: {
     width: '90%',
-    margin: '1%',
-    fontFamily: 'Montserrat',
+    marginTop: '2%',
+    fontFamily: 'open-sans',
   },
   imgStyle: {
     filter: 'drop-shadow(3px 4px 10px #96C1AE)',

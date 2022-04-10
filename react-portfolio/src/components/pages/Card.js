@@ -1,12 +1,14 @@
 import React from 'react';
 const styles = {
   cardStyle: {
+    background: 'white',
+    borderRadius: '5%',
     minWidth: '30%',
     maxWidth: '400px',
     margin: '5%',
     marginTop: '5%',
     marginBottom: '5%',
-    padding: '1%',
+    padding: '4%',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -16,24 +18,26 @@ const styles = {
     width: '100%',
     boxShadow: '2px 2px 5px #96C1AE',
   },
-  textStyle: {
+  linkStyle: {
+    textDecoration: 'none',
+    FontFamily: 'serif',
   },
 };
 
 function Card(props) {
   return (
     <div style={styles.cardStyle} class="contact">
-        <h1 style={styles.textStyle}>{props.title}</h1>
+        <h1 style={styles.textStyle}>{props.name}</h1>
         <a href={props.link}>
         <img style={styles.imageStyle} src={props.src} />
         </a>
         <h4>
-          {props.title}
+          {props.name}
         </h4>
-        <a href={props.link}>
+        <a style={styles.linkStyle} href={props.link}>
           {props.link}
         </a>
-        <a href={props.githubLink}>
+        <a style={styles.linkStyle} href={props.githubLink}>
           {props.githubLink}
         </a>
         <p>
