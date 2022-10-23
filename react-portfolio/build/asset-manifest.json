@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.afd98d48.chunk.css",
-    "main.js": "/static/js/main.f8014f51.chunk.js",
-    "main.js.map": "/static/js/main.f8014f51.chunk.js.map",
+    "main.css": "/static/css/main.5bf2da5c.chunk.css",
+    "main.js": "/static/js/main.e4e9e74a.chunk.js",
+    "main.js.map": "/static/js/main.e4e9e74a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8aff61f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.8aff61f5.js.map",
     "static/js/2.bd0fc1c3.chunk.js": "/static/js/2.bd0fc1c3.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.671aabbd.chunk.js": "/static/js/3.671aabbd.chunk.js",
     "static/js/3.671aabbd.chunk.js.map": "/static/js/3.671aabbd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.afd98d48.chunk.css.map": "/static/css/main.afd98d48.chunk.css.map",
+    "static/css/main.5bf2da5c.chunk.css.map": "/static/css/main.5bf2da5c.chunk.css.map",
     "static/js/2.bd0fc1c3.chunk.js.LICENSE.txt": "/static/js/2.bd0fc1c3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Lovelo-LineLight.016a9fe6.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.8aff61f5.js",
     "static/js/2.bd0fc1c3.chunk.js",
-    "static/css/main.afd98d48.chunk.css",
-    "static/js/main.f8014f51.chunk.js"
+    "static/css/main.5bf2da5c.chunk.css",
+    "static/js/main.e4e9e74a.chunk.js"
   ]
 }
